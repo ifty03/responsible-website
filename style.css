@@ -1,34 +1,91 @@
+/*--------
+    fonrs
+ -------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 /*------------
     comon
  ----------- */
 body {
   background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
 }
-main {
+.firsr-part {
   display: flex;
   justify-content: center;
 }
+/* .container-2 {
+  width: 870px;
+  height: 362px;
+  background-color: #ffffff;
+} */
+.middle-part {
+  display: flex;
+  justify-content: center;
+}
+/*--------------
+ header propartis
+ --------------- */
 header {
-  width: 1440px;
   height: 94px;
   background-color: #562eff;
 }
+nav {
+  display: flex;
+}
+.icon img {
+  width: 40px;
+  height: 51px;
+  margin-left: 240px;
+  margin-top: 26px;
+}
+.logo-name {
+  position: absolute;
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 33px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.navigation-bar {
+  margin-left: 510px;
+  margin-top: 35px;
+}
+.navigation-bar a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 36px;
+}
 
+.profile img {
+  width: 51px;
+  height: 51px;
+  margin-top: 23px;
+}
 /*--------------------
  top-players section
  ---------------------- */
 
 .container {
   background-color: #ffffff;
-  height: 679px;
+  height: 700px;
   width: 870px;
   margin-top: 38px;
   border-radius: 5px;
+}
+.top-player-title {
+  font-family: "Poppins", sans-serif;
+  color: #562eff;
+  font-size: 24px;
+  margin-left: 33px;
+  margin-top: 31px;
 }
 .top-players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 20px;
+  margin-left: 33px;
+  margin-top: 35px;
 }
 .player {
   display: flex;
@@ -36,4 +93,76 @@ header {
 .player img {
   width: 56px;
   height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+  margin-right: 20px;
+}
+hr {
+  margin: 30px;
+  border: 1px solid #d1d1d1;
+}
+
+/*-----------
+  top- blog
+ -----------*/
+.top-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.thamblin img {
+  width: 177px;
+  height: 117px;
+}
+article {
+  display: flex;
+  margin-top: 31px;
+  margin-left: 30px;
+}
+.othor {
+  margin-left: 16px;
+  font-size: 16px;
+}
+.othor a {
+  text-decoration: none;
+  color: #562eff;
+}
+/*---------------
+ latest-course
+ ----------------*/
+.top-courses {
+  width: 870px;
+  height: 380px;
+  background-color: #ffffff;
+  margin-top: 38px;
+  border-radius: 5px;
+}
+.course-info {
+  width: 252.42px;
+
+  height: 269.79px;
+  margin-top: 5px;
+  margin-left: 33px;
+  margin-bottom: none;
+}
+.course-info > img {
+  width: 224px;
+  height: 104px;
+}
+.course-info a {
+  text-decoration: none;
+}
+.middle-othor {
+  font-size: 16px;
+  color: #ed6b4f;
+}
+.fas {
+  color: #ffc014;
+}
+.course {
+  display: flex;
+}
+.time img {
+  height: 20.3px;
+  width: 20.3px;
 }
